@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calculadora</title>
+
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <div class="container">
+    <h1>Calculadora</h1>
+
+    <main>
+
+      <div class="calc  main-sec">
+        <div class="textbox">
+          <input id="txt" type="text">
+        </div>
+          <div class="buttons">
+            <div class="row">
+            <button class="btnC" id="btnClear">Clear</button>
+            <button class="btnC" id="btnClearHistory">C. History</button>
+            </div>
+            <div class="row">
+              <button class="btn" value="7">7</button>
+              <button class="btn" value="8" >8</button>
+              <button class="btn" value="9" >9</button>
+              <button class="btn" value="+" >+</button>
+            </div>
+            <div class="row">
+              <button class="btn" value="4" >4</button>
+              <button class="btn" value="5" >5</button>
+              <button class="btn" value="6" >6</button>
+              <button class="btn" value="-" >-</button>
+            </div>
+            <div class="row">
+              <button class="btn" value="1" >1</button>
+              <button class="btn" value="2" >2</button>
+              <button class="btn" value="3" >3</button>
+              <button class="btn" value="*" >*</button>
+            </div>
+            <div class="row"> 
+              <button class="btn" value="0" >0</button>
+              <button class="btn" value="." >.</button>
+              <button class="btn" value="/" >/</button>
+              <button class="btn">=</button>
+            </div>
+          </div>
+      </div>
+
+      <div class="history main-sec">
+        <h2>Historial</h2>
+        <div class="history-list">
+          <ol id="history">
+       
+          </ol>
+        </div>
+      </div>
+    </main>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
